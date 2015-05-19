@@ -1,13 +1,4 @@
 <?php
-// function comment_buddy_menu() {
-//     $items['add/comment'] = array(
-//         'title' => 'Comment Buddy',
-//         'page callback' => 'comment_buddy',
-//         'access callback' => TRUE,
-//         'type' => MENU_CALLBACK,
-//     );
-//     return $items;
-// }
 
 function comment_buddy_comment_update() {
     drupal_set_message("You edited a comment, wow");
