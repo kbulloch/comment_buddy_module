@@ -1,0 +1,22 @@
+<?php
+// function comment_buddy_menu() {
+//     $items['add/comment'] = array(
+//         'title' => 'Comment Buddy',
+//         'page callback' => 'comment_buddy',
+//         'access callback' => TRUE,
+//         'type' => MENU_CALLBACK,
+//     );
+//     return $items;
+// }
+
+function comment_buddy_comment_update() {
+    drupal_set_message("You edited a comment, wow");
+}
+
+function comment_buddy_comment_insert() {
+    drupal_set_message("You made a comment, wow");
+}
+
+function comment_buddy_comment_delete() {
+    drupal_set_message("You eradicated a comment, wow, no seriously, great job Jim.");
+}
